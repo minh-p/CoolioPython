@@ -14,4 +14,4 @@ def get_the_sum_of_numbers(*numbers):
     return current_sum_of_number
 
 
-print(get_the_sum_of_numbers(20, 10, 30, 90, 50))
+print(get_the_sum_of_numbers(10, 50, 60))
