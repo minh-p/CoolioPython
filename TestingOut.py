@@ -13,5 +13,8 @@ def get_the_sum_of_numbers(*numbers):
     
     return current_sum_of_number
 
+def return_something():
+    my_string = "string"
+    return my_string[-1]
 
-print(get_the_sum_of_numbers(10, 50, 60))
+print(return_something())
