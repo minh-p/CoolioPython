@@ -14,7 +14,7 @@ def get_the_sum_of_numbers(*numbers):
     return current_sum_of_number
 
 def return_something():
-    my_string = "string"
-    return my_string[-1]
+    my_string = "This is my lovely string."
+    return my_string[0:-5]
 
 print(return_something())
