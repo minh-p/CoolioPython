@@ -124,3 +124,31 @@ def function_with_default_args2(defaultList = None):
         defaultList = []
     # The rest of your code...
 
+# Keyword argument:
+# function_with_default_args2(defaultList = [])
+
+# An argument like this: *argument means that it will accept tuples
+# An argument like this: **argument measn that it will accept dictionaries.
+
+def do_a_play(*lines, **characters):
+    for line in lines:
+        print(line)
+
+    print("-" * 20)
+
+    for character_type in characters:
+        print(character_type + ": " + characters[character_type])
+
+# You would call this function like this:
+# do_a_play("Hello there.", "General Kenobi...", the_jedi = "Obiwan Kennobi", the_general = "General Grievous")
+
+"""
+A function definition may look like this:
+
+def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
+      -----------    ----------     ----------
+        |             |                  |
+        |        Positional or keyword   |
+        |                                - Keyword only
+         -- Positional only
+"""
