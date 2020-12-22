@@ -74,3 +74,15 @@ def loop_test():
         print("Nothing left for this loop m8")
 
 # loop_test()
+
+# Learning about the continue statement.
+# The continue statement is used when you want to continue with the next iteration of loop, rather than for everything else underneath to be executed.
+
+def loop_test2():
+    for num in range(2, 10):
+        if num % 2 == 0:
+            print("Found an even number", num)
+            continue
+        print("Found an odd number", num)
+
+# loop_test2()
