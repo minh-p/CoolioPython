@@ -59,4 +59,18 @@ def add_the_same_previous_numbers(number_of_rounds, starting_number):
 
         print(old_starting_number_string + " plus " + old_starting_number_string + " is " + new_starting_number_string)
 
-add_the_same_previous_numbers(5, 5)
+# add_the_same_previous_numbers(5, 5)
+
+# Testing out more about loops
+def loop_test():
+    a_number = 1
+    while a_number < 10:
+        print(a_number)
+        a_number += 1
+        if a_number == 10:
+            break
+    # The else block occurs when there are no break statements that occured for the loop on top of it.
+    else:
+        print("Nothing left for this loop m8")
+
+# loop_test()
