@@ -152,3 +152,40 @@ def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
         |                                - Keyword only
          -- Positional only
 """
+
+# Seperating items.
+def list_items(*items, seperator = ", "):
+    print(seperator.join(items))
+
+# list_items("Hello", "World", seperator="; ")
+
+# Unpacking a list.
+# print(*[3, 5])
+
+# lambda expression:
+def increment(incremented_by):
+    return lambda funcObject: funcObject + incremented_by
+
+# increment1 = increment(10)
+# print(increment1(1))
+
+# A function documentation:
+def say_words(*words_to_say):
+    """
+    Parameter:
+    words_to_say: string
+    """
+
+    for word in words_to_say:
+        print(word)
+
+# print(say_words.__doc__)
+
+# Function annotations:
+# This is completely optional, it is like documenting but more extreme.
+
+def annotation_example(hello: str = "Hello") -> int:
+    print(annotation_example.__annotations__)
+    return len(hello)
+
+# annotation_example()
