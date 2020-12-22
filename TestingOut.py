@@ -114,3 +114,13 @@ def function_with_default_args(defaultArgument = "Default Argument"):
     print(defaultArgument)
 
 # function_with_default_args()
+
+# Important Note: if you made a default argument to be a mutable object and changes it inside the function, the default will be the same
+# for subsequent calls.
+
+# If you don't want this to happen then do this:
+def function_with_default_args2(defaultList = None):
+    if defaultList == None:
+        defaultList = []
+    # The rest of your code...
+
