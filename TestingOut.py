@@ -102,3 +102,15 @@ def function_example_with_return():
     return "This is da returning string."
 
 # print(function_example_with_return())
+
+# Default argument values:
+
+def function_with_default_args(defaultArgument = "Default Argument"):
+    """
+    With this default argument, you would not need to pass in the argument required to run the function.
+    And you will not get an error :D.
+    """
+
+    print(defaultArgument)
+
+# function_with_default_args()
