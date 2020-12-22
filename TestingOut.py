@@ -94,3 +94,11 @@ def passing_this():
     pass
 
 # passing_this()
+
+# Definding a function. (I was already doing this :DDD)
+# Use the symbol def followed by the function name, then parantheses with arugments in it.
+
+def function_example_with_return():
+    return "This is da returning string."
+
+# print(function_example_with_return())
