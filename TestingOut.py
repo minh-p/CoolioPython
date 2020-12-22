@@ -86,3 +86,11 @@ def loop_test2():
         print("Found an odd number", num)
 
 # loop_test2()
+
+# Learning about the pass statement.
+# If you don't use pass, things that requires an indentation will give an error: IndentationError: expected an indented block
+
+def passing_this():
+    pass
+
+# passing_this()
