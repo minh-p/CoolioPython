@@ -198,3 +198,6 @@ def annotation_example(hello: str = "Hello") -> int:
 
 # numbersTo10 = [for x in range(11)]
 # print(numbersTo10) -> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+test = [x+x for x in range(10)]
+# print(test)
