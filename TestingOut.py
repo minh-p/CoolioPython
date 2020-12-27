@@ -207,3 +207,6 @@ testTuple = 1, 2, "hi"
 
 testSet = set(["hi", "hi", "hello", "hello"])
 # print(testSet) -> ["hi", "hello"]
+
+import Fibonacci
+# Fibonacci.fib(20)
