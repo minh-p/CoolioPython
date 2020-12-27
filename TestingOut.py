@@ -201,3 +201,9 @@ def annotation_example(hello: str = "Hello") -> int:
 
 test = [x+x for x in range(10)]
 # print(test)
+
+testTuple = 1, 2, "hi"
+# print(testTuple[0])
+
+testSet = set(["hi", "hi", "hello", "hello"])
+# print(testSet) -> ["hi", "hello"]
